@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #2c3e50, #1a1a1a); /* Change colors as needed */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#videoPlayer {
+    display: block;
+    margin: 0 auto;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Adjust maximum width as needed */
+}
+
+#answerDiv {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#answerInput {
+    font-family: "Bebas Neue", sans-serif;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 115px;
+    font-size: 30px;
+    width: 200px;
+    height: 2vh; /* Adjust width as needed */
+}
+
+
+button {
+    
+    font-family: "Bebas Neue", sans-serif;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 115px;
+    font-size: 27px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+#timerDiv {
+    font-size: 24px;
+}
+
+.OutText{
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+}

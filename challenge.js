@@ -14,32 +14,8 @@ EasyBtn.addEventListener("click", function () {
   
     // // Redirect after a short delay (to simulate loading time)
     setTimeout(function () {
-      window.location.href = "index.html";  // Replace with your target URL
+      window.location.href = "Easy.html";  // Replace with your target URL
     }, 3000); // Adjust delay in milliseconds (1000ms = 1 second)
   });
 
-MedBtn.addEventListener("click", function () {
-    // // Show loader
-    loaderElement.style.display = "block";
-  
-    // Play audio
-    audioElement.play();
-  
-    // // Redirect after a short delay (to simulate loading time)
-    setTimeout(function () {
-      window.location.href = "index.html";  // Replace with your target URL
-    }, 3000); // Adjust delay in milliseconds (1000ms = 1 second)
-  });
 
-HardBtn.addEventListener("click", function () {
-    // // Show loader
-    loaderElement.style.display = "block";
-  
-    // Play audio
-    audioElement.play();
-  
-    // // Redirect after a short delay (to simulate loading time)
-    setTimeout(function () {
-      window.location.href = "index.html";  // Replace with your target URL
-    }, 3000); // Adjust delay in milliseconds (1000ms = 1 second)
-  });
