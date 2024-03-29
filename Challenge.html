@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LBW Game</title>
+    <link rel="stylesheet" href="Challenge.css">
+</head>
+<body>
+    <div class="challenge_main">
+        <video autoplay  loop plays-inline>
+            <source src="assets/cricket game.mp4" />
+        </video>
+
+        <audio id="myAudio">
+            <source src="assets/mixkit-game-click-1114.wav" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="main-content">
+            <h1> Select Difficulty Level: </h1>
+            <button id="Easy-btn" class="Easy-btn"> Easy </button>
+            <button id="Medium-btn" class="Medium-btn"> Medium </button>
+            <button id="Hard-btn" class="Hard-btn"> Hard </button>
+        </div>
+
+        <div id="loader" style="display: none;">Loading...</div>
+    </div>
+
+
+
+    <script src="challenge.js"></script>
+</body>
+</html>
